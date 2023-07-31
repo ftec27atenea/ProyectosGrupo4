@@ -10,7 +10,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         style="@style/verde"
-        android:foregroundTint="#3F51B5"
         android:text="Button"
         tools:layout_editor_absoluteX="160dp"
         tools:layout_editor_absoluteY="210dp"
@@ -27,12 +26,12 @@
 
     <TextView
         android:id="@+id/textView2"
-        style="@style/verde"
+        style="@style/fuente_roja"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
-        tools:layout_editor_absoluteX="176dp"
-        tools:layout_editor_absoluteY="104dp" />
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="105dp" />
 
     <EditText
         android:id="@+id/editTextText"

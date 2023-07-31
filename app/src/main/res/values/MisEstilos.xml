@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="verde">
-        <item name="android:background">#A4C639</item>
+        <item name="android:background">#33dd55</item>
+    </style>
+
+    <style name="fuente_roja">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#D51212</item>
     </style>
 </resources>
