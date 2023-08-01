@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cajaAzul"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:background="#1C1B1B"
+    android:backgroundTint="#03A9F4"
+    android:gravity="center_horizontal|center_vertical"
+    android:onClick="MostrarDatoEnMensaje"
+    android:orientation="vertical"
+    tools:context=".sesion_36">
+
+    <EditText
+        android:id="@+id/tvDato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingresar Dato"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="MostrarDatoEnMensaje"
+        android:text="Enviar" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/opcion1RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Opción 1" />
+        <RadioButton
+            android:id="@+id/opcion2RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Opción 2" />
+        <RadioButton
+            android:id="@+id/opcion3RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Opción 3" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/opcion1CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opción 1" />
+    <CheckBox
+        android:id="@+id/opcion2CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opción 2" />
+    <CheckBox
+        android:id="@+id/opcion3CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opción 3" />
+
+</LinearLayout>
