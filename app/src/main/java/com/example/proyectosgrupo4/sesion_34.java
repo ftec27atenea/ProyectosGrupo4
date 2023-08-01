@@ -30,6 +30,8 @@ public class sesion_34 extends AppCompatActivity {
         TextView twNombre=findViewById(R.id.twNombre);
         TextView twComparacion=findViewById(R.id.twComparacion);
 
+        TextView tvNombre1= findViewById(R.id.tvNombre);
+        tvNombre1.setText("Mi nombre: Karol ");
 
         Log.i("Mensajes Grupo4","Paso1:"+String.valueOf(edad-1));
         Log.e("Mensajes Grupo4","Paso2:"+String.valueOf((altura-1)));
