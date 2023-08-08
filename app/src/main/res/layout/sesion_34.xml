@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:onClick="Sumar"
     android:orientation="vertical"
     tools:context=".sesion_34">
 
@@ -39,7 +38,20 @@
         android:text="comparacion" />
 
     <View
-        android:id="@+id/divider"
+        android:id="@+id/divider1"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#000000" />
+
+    <Button
+        android:id="@+id/btnClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="EventoClick"
+        android:text="Hacer click" />
+
+    <View
+        android:id="@+id/divider2"
         android:layout_width="match_parent"
         android:layout_height="10dp"
         android:background="#000000" />
@@ -58,13 +70,18 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:onClick="Sumar"
         android:text="Name" />
 
     <Button
         android:id="@+id/btnSumar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:onClick="Sumar"
+        android:text="Sumar" />
+
+    <TextView
+        android:id="@+id/twResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
