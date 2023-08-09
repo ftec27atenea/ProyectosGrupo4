@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.util.Log;
 import android.widget.Toast;
@@ -52,7 +53,14 @@ public class sesion_34 extends AppCompatActivity {
         Log.d("Mensajes Grupo4","Termino Ejecucion");
     }
 
-    public void Sumar(View view){
+    public void EventoClick(View view){
         Toast.makeText(sesion_34.this,"Hiciste Click",Toast.LENGTH_LONG).show();
+    }
+
+    public void Sumar(View view){
+        EditText etCampo1=findViewById(R.id.etCampo1);
+        EditText etCampo2=findViewById(R.id.etCampo2);
+        TextView twResultado=findViewById(R.id.twResultado);
+        twResultado.setText("El Resultado es:"+etCampo1.getText()+etCampo2.getText());
     }
 }
