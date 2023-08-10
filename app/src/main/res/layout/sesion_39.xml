@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/login_edittext_background"
+    tools:context=".sesion_39">
+
+    <ImageView
+        android:id="@+id/FondoPersona"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/login_background" />
+
+    <ImageView
+        android:id="@+id/LogoTop"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="top"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/login_logo" />
+
+    <ImageView
+        android:id="@+id/LogoBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/login_footnote" />
+
+    <TextView
+        android:id="@+id/Texto1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-150dp"
+        android:gravity="center"
+        android:text="My Eco APP, Genial"
+        android:textColor="#F8F5F5"
+        android:textSize="34sp" />
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="150dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/login_edittext_background"
+            android:ems="10"
+            android:hint="USUARIO"
+            android:inputType="text"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/editTextText2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/login_edittext_background"
+            android:ems="10"
+            android:hint="CONTRASEÑA"
+            android:inputType="text"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="15dp"
+            android:padding="10dp"
+            android:text="Iniciar Sesión" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Olvidaste tu contraseña?"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</FrameLayout>
