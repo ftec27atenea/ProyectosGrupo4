@@ -30,37 +30,44 @@
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <RadioButton
             android:id="@+id/opcion1RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Opción 1" />
+
         <RadioButton
             android:id="@+id/opcion2RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Opción 2" />
+
         <RadioButton
             android:id="@+id/opcion3RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Opción 3" />
-    </RadioGroup>
 
-    <CheckBox
-        android:id="@+id/opcion1CheckBox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Opción 1" />
-    <CheckBox
-        android:id="@+id/opcion2CheckBox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Opción 2" />
-    <CheckBox
-        android:id="@+id/opcion3CheckBox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Opción 3" />
+        <CheckBox
+            android:id="@+id/opcion1CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Opción 1" />
+
+        <CheckBox
+            android:id="@+id/opcion2CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Opción 2" />
+
+        <CheckBox
+            android:id="@+id/opcion3CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Opción 3" />
+
+
+    </RadioGroup>
 
 </LinearLayout>

@@ -6,9 +6,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class sesion_36 extends AppCompatActivity {
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +21,6 @@ public class sesion_36 extends AppCompatActivity {
 
     public void MostrarDatoEnMensaje(View view){
         EditText tvDato = findViewById(R.id.tvDato);
-        Toast.makeText(getApplicationContext(), tvDato.getText(), Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(),tvDato.getText(),Toast.LENGTH_LONG).show();
     }
 }
