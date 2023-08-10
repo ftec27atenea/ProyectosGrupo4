@@ -16,6 +16,12 @@
             android:name=".sesion_36"
             android:exported="false" />
         <activity
+            android:name=".sesion_34"
+            android:exported="false" />
+        <activity
+            android:name=".sesion_35"
+            android:exported="false" />
+        <activity
             android:name=".sesion_37"
             android:exported="true">
             <intent-filter>
@@ -25,14 +31,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".sesion_35"
-            android:exported="false" />
-        <activity
-            android:name=".sesion_34"
-            android:exported="false"></activity>
-        <activity
             android:name=".MainActivity"
-            android:exported="false" />
+            android:exported="true"></activity>
     </application>
 
 </manifest>
