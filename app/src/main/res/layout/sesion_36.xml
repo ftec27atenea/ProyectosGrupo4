@@ -34,7 +34,8 @@
             android:id="@+id/opcion1RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Opción 1" />
+            android:text="Opción 1"
+            android:checked="true"/>
         <RadioButton
             android:id="@+id/opcion2RadioButton"
             android:layout_width="wrap_content"
@@ -56,6 +57,7 @@
         android:id="@+id/opcion2CheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:checked="true"
         android:text="Opción 2" />
     <CheckBox
         android:id="@+id/opcion3CheckBox"
