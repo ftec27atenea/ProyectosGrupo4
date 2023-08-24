@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sesion_44">
+
+    <Button
+        android:id="@+id/btnDetalle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detalle"
+        app:layout_constraintBottom_toBottomOf="@+id/ivSorpresa"
+        app:layout_constraintEnd_toEndOf="@+id/ivSorpresa"
+        app:layout_constraintStart_toStartOf="@+id/ivSorpresa"
+        app:layout_constraintTop_toTopOf="@+id/ivSorpresa" />
+
+    <ImageView
+        android:id="@+id/ivSorpresa"
+        android:layout_width="318dp"
+        android:layout_height="209dp"
+        android:background="#000000"
+        android:onClick="MostarImagen"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo400px" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
