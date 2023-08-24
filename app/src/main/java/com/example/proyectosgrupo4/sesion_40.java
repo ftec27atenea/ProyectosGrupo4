@@ -9,15 +9,14 @@ import android.view.animation.AnimationSet;
 import android.view.animation.LinearInterpolator;
 import android.view.animation.RotateAnimation;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ImageView;
 
-public class Sesion40 extends AppCompatActivity {
+public class sesion_40 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.sesion40);
+        setContentView(R.layout.sesion_40);
 
         Button btnEfecto = findViewById(R.id.btnEfecto);
         btnEfecto.setOnClickListener(this::animar);
