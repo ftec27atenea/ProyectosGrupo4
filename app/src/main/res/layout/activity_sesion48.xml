@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/CLPantalla"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEE7DF"
+    tools:context=".sesion_48">
+
+    <ScrollView
+        android:id="@+id/Chat"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:id="@+id/Historial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView android:id="@+id/Mensaje00" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje07" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje08" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje13" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje14" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje17" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje18" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje19" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje21" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje22" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje23" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje24" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje25" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje26" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje27" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje28" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje29" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje30" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje31" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje32" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje34" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje35" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje36" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje37" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje38" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje39" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje40" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje41" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje42" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje43" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje44" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje45" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje46" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje47" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje48" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje49" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje50" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje51" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje52" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje53" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje54" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje55" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje56" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje57" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje58" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje59" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje61" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje62" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje63" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje64" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje65" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje66" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje67" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje68" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje69" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje70" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje71" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje72" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje73" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje74" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje75" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje76" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje77" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje78" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje79" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje81" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje82" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje83" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje84" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje85" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje86" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje87" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje88" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje89" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje90" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje91" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje92" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje93" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje94" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje95" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje96" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje97" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+            <TextView android:id="@+id/Mensaje98" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#FFFFFF" android:text="Pregunta" />
+            <TextView android:id="@+id/Mensaje99" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end" android:background="#E9FEDB" android:text="Respuesta" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
