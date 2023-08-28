@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/GrayBox"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#353535"
+    android:backgroundTint="#656464"
+    android:gravity="center"
+    android:onClick="findViewById"
+    android:orientation="vertical"
+    tools:context=".sesion_36">
+
+    <EditText
+        android:id="@+id/TextViewData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingresar Dato"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/SendButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="MostrarDatoEnMensaje"
+        android:text="Enviar" />
+</LinearLayout>
