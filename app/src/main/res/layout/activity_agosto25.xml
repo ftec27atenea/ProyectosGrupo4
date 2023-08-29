@@ -26,7 +26,7 @@
         app:layout_constraintHeight_percent="0.4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/img" />
+        app:srcCompat="@drawable/img_1" />
 
     <LinearLayout
         android:id="@+id/ll_botonera"
