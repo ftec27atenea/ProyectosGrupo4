@@ -8,8 +8,15 @@
     tools:context=".sesion_51">
 
     <TextView
-        android:id="@+id/titulo"
-        android:layout_width="match_parent"
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_weight="0"
         android:text="Lista de compras" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_ListaProductos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
 </LinearLayout>
